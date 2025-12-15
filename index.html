@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Eric Montero | Full-Stack Developer</title>
+
+  <!-- SEO -->
+  <meta name="description"
+    content="Portafolio profesional de Eric Montero, Full-Stack Developer y WordPress Specialist." />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ericmontero.dev/">
+  <meta property="og:title" content="Eric Montero | Full-Stack Developer">
+  <meta property="og:description" content="Portafolio profesional. React, Node.js, Kotlin, WordPress.">
+  <meta property="og:image" content="assets/og-image.jpg">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://ericmontero.dev/">
+  <meta property="twitter:title" content="Eric Montero | Full-Stack Developer">
+  <meta property="twitter:description" content="Portafolio profesional. React, Node.js, Kotlin, WordPress.">
+  <meta property="twitter:image" content="assets/og-image.jpg">
+
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="dark-mode">
+
+  <nav>
+    <ul>
+      <li><a href="#hero">Inicio</a></li>
+      <li><a href="#about">Sobre mí</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Proyectos</a></li>
+      <li><a href="#certifications">Certificaciones</a></li>
+      <li><a href="#experience">Experiencia</a></li>
+      <li><a href="#contact">Contacto</a></li>
+      <li>
+        <button id="theme-toggle" aria-label="Cambiar tema">
+          <i class="fas fa-moon"></i>
+        </button>
+      </li>
+    </ul>
+  </nav>
+
+  <section id="hero">
+    <div>
+      <h1>Hola, soy <span>Eric</span></h1>
+      <h2><span id="typing-text"></span><span class="cursor">|</span></h2>
+      <p>
+        Transformo ideas en experiencias digitales de alto impacto.
+        Especializado en arquitecturas escalables y diseño UI/UX moderno.
+      </p>
+      <a href="#projects" class="cta">Ver portafolio</a>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>Sobre mí</h2>
+    <div class="about-content">
+      <div class="about-text">
+        <p class="intro">
+          Soy un <strong>Full-Stack Developer</strong> apasionado por crear soluciones digitales que combinan
+          funcionalidad robusta con experiencias de usuario excepcionales. Con experiencia en el desarrollo
+          de aplicaciones web modernas, e-commerce y sistemas escalables.
+        </p>
+
+        <h3>Mi Enfoque</h3>
+        <p>
+          Me especializo en transformar ideas complejas en productos digitales intuitivos y eficientes.
+          Mi stack tecnológico abarca desde el frontend moderno con <strong>React</strong> y <strong>Next.js</strong>,
+          hasta backends robustos con <strong>Django</strong> y bases de datos como <strong>PostgreSQL</strong> y
+          <strong>MongoDB</strong>.
+        </p>
+
+        <h3>Experiencia Destacada</h3>
+        <ul class="experience-highlights">
+          <li>
+            <i class="fas fa-code"></i>
+            <div>
+              <strong>Desarrollo Full-Stack:</strong> Creación de aplicaciones web completas desde la arquitectura
+              hasta el deployment, utilizando tecnologías modernas como Next.js, React, y Tailwind CSS.
+            </div>
+          </li>
+          <li>
+            <i class="fas fa-shopping-cart"></i>
+            <div>
+              <strong>E-Commerce & WordPress:</strong> Optimización de tiendas online con WooCommerce,
+              mejorando rendimiento, SEO técnico y tasas de conversión.
+            </div>
+          </li>
+          <li>
+            <i class="fas fa-database"></i>
+            <div>
+              <strong>Bases de Datos:</strong> Diseño e implementación de esquemas relacionales (PostgreSQL, NeonDB)
+              y NoSQL (MongoDB), con enfoque en escalabilidad y rendimiento.
+            </div>
+          </li>
+          <li>
+            <i class="fas fa-mobile-alt"></i>
+            <div>
+              <strong>Desarrollo Mobile:</strong> Aplicaciones Android nativas con Kotlin y Jetpack Compose,
+              siguiendo las mejores prácticas de Material Design.
+            </div>
+          </li>
+        </ul>
+
+        <h3>Formación Continua</h3>
+        <p>
+          Creo firmemente en el aprendizaje constante. He completado múltiples certificaciones en
+          <strong>freeCodeCamp</strong> (Responsive Web Design, JavaScript, React, Data Visualization, Databases)
+          y cursos especializados en lógica de programación. Esta formación me permite mantenerme actualizado
+          con las últimas tendencias y mejores prácticas del desarrollo web.
+        </p>
+
+        <div class="about-stats">
+          <div class="stat-item">
+            <span class="stat-number">22+</span>
+            <span class="stat-label">Tecnologías</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">7</span>
+            <span class="stat-label">Certificaciones</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">100%</span>
+            <span class="stat-label">Compromiso</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Stack Tecnológico</h2>
+    <div class="skills-grid">
+      <div class="card skill-card hidden">
+        <i class="fab fa-html5" style="color: #e34f26;"></i>
+        <h3>HTML5</h3>
+      </div>
+      <div class="card skill-card hidden">
+        <i class="fab fa-css3-alt" style="color: #1572b6;"></i>
+        <h3>CSS3</h3>
+      </div>
+      <div class="card skill-card hidden">
+        <i class="fab fa-js" style="color: #f7df1e;"></i>
+        <h3>JavaScript</h3>
+      </div>
+      <div class="card skill-card hidden">
+        <i class="fab fa-react" style="color: #61dafb;"></i>
+        <h3>React</h3>
+      </div>
+      <div class="card skill-card hidden">
+        <i class="fab fa-wordpress" style="color: #21759b;"></i>
+        <h3>WordPress</h3>
+      </div>
+      <div class="card skill-card hidden">
+        <i class="fas fa-database" style="color: #00c3ff;"></i>
+        <h3>SQL / Supabase</h3>
+      </div>
+      <div class="card skill-card hidden">
+        <i class="fab fa-android" style="color: #3ddc84;"></i>
+        <h3>Kotlin</h3>
+      </div>
+      <div class="card skill-card hidden">
+        <i class="fab fa-github" style="color: #fff;"></i>
+        <h3>Git/GitHub</h3>
+      </div>
+      <div class="card skill-card hidden">
+        <i class="fab fa-bootstrap" style="color: #7952b3;"></i>
+        <h3>Bootstrap</h3>
+      </div>
+      <div class="card skill-card hidden">
+        <i class="fab fa-sass" style="color: #cc6699;"></i>
+        <h3>Sass</h3>
+      </div>
+      <div class="card skill-card hidden">
+        <i class="fas fa-chart-bar" style="color: #f9a03c;"></i>
+        <h3>D3.js</h3>
+      </div>
+      <div class="card skill-card hidden">
+        <i class="fas fa-database" style="color: #336791;"></i>
+        <h3>PostgreSQL</h3>
+      </div>
+      <div class="card skill-card hidden">
+        <i class="fas fa-terminal" style="color: #4eaa25;"></i>
+        <h3>Bash</h3>
+      </div>
+      <div class="card skill-card hidden">
+        <i class="fab fa-react" style="color: #764abc;"></i>
+        <h3>Redux</h3>
+      </div>
+      <div class="card skill-card hidden">
+        <i class="fas fa-rocket" style="color: #000;"></i>
+        <h3>Next.js</h3>
+      </div>
+      <div class="card skill-card hidden">
+        <i class="fas fa-wind" style="color: #06b6d4;"></i>
+        <h3>Tailwind CSS</h3>
+      </div>
+      <div class="card skill-card hidden">
+        <i class="fas fa-triangle" style="color: #000;"></i>
+        <h3>Vercel</h3>
+      </div>
+      <div class="card skill-card hidden">
+        <i class="fab fa-js" style="color: #3178c6;"></i>
+        <h3>TypeScript</h3>
+      </div>
+      <div class="card skill-card hidden">
+        <i class="fas fa-leaf" style="color: #47a248;"></i>
+        <h3>MongoDB</h3>
+      </div>
+      <div class="card skill-card hidden">
+        <i class="fas fa-database" style="color: #00e699;"></i>
+        <h3>NeonDB</h3>
+      </div>
+      <div class="card skill-card hidden">
+        <i class="fab fa-python" style="color: #092e20;"></i>
+        <h3>Django</h3>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Proyectos Destacados</h2>
+
+    <!-- Proyecto Destacado Manual -->
+    <article class="card featured-project hidden">
+      <div class="featured-img-container">
+        <img src="assets/GAMEZONEDL.png" alt="GameZone DL Preview" class="featured-img">
+      </div>
+      <div class="featured-info">
+        <h3>GameZone DL</h3>
+        <p>Portal gamer completo con catálogo de juegos, marketplace de skins, sistema de favoritos y comunidad activa.
+          Construido con Next.js y Tailwind CSS, desplegado en Vercel.</p>
+        <div class="project-meta">
+          <span><i class="fas fa-rocket"></i> Next.js</span>
+          <span><i class="fas fa-wind"></i> Tailwind</span>
+          <span><i class="fab fa-react"></i> React</span>
+        </div>
+        <a href="https://game-zone-dl.vercel.app" target="_blank" class="cta"
+          style="padding: 0.8rem 2rem; font-size: 1rem;">Ver Demo Live</a>
+      </div>
+    </article>
+
+    <h3 style="text-align: center; margin: 4rem 0 2rem; color: var(--text-muted);">Repositorios Recientes</h3>
+    <div id="repos-container" class="projects-grid">
+      <!-- GitHub repos aquí -->
+    </div>
+  </section>
+
+  <section id="certifications">
+    <h2>Certificaciones y Cursos</h2>
+    <div class="certifications-grid">
+
+      <!-- freeCodeCamp Certifications -->
+      <article class="card cert-card hidden" data-cert-image="assets/cert-responsive-web-design.png">
+        <div class="cert-icon">
+          <i class="fab fa-free-code-camp" style="color: #0a0a23; font-size: 2.5rem;"></i>
+        </div>
+        <h3>Responsive Web Design</h3>
+        <p class="cert-provider">freeCodeCamp</p>
+        <a href="https://freecodecamp.org/certification/fcc5c6b5e38-1843-47b3-a3d0-d7b540718147/responsive-web-design-v9"
+          target="_blank" class="cert-link">
+          <i class="fas fa-external-link-alt"></i> Ver Certificado
+        </a>
+      </article>
+
+      <article class="card cert-card hidden" data-cert-image="assets/cert-javascript-algorithms.png">
+        <div class="cert-icon">
+          <i class="fab fa-free-code-camp" style="color: #0a0a23; font-size: 2.5rem;"></i>
+        </div>
+        <h3>JavaScript Algorithms and Data Structures</h3>
+        <p class="cert-provider">freeCodeCamp</p>
+        <a href="https://freecodecamp.org/certification/fcc5c6b5e38-1843-47b3-a3d0-d7b540718147/javascript-algorithms-and-data-structures-v8"
+          target="_blank" class="cert-link">
+          <i class="fas fa-external-link-alt"></i> Ver Certificado
+        </a>
+      </article>
+
+      <article class="card cert-card hidden" data-cert-image="assets/cert-frontend-libraries.png">
+        <div class="cert-icon">
+          <i class="fab fa-free-code-camp" style="color: #0a0a23; font-size: 2.5rem;"></i>
+        </div>
+        <h3>Front End Development Libraries</h3>
+        <p class="cert-provider">freeCodeCamp</p>
+        <a href="https://freecodecamp.org/certification/fcc5c6b5e38-1843-47b3-a3d0-d7b540718147/front-end-development-libraries"
+          target="_blank" class="cert-link">
+          <i class="fas fa-external-link-alt"></i> Ver Certificado
+        </a>
+      </article>
+
+      <article class="card cert-card hidden" data-cert-image="assets/cert-data-visualization.png">
+        <div class="cert-icon">
+          <i class="fab fa-free-code-camp" style="color: #0a0a23; font-size: 2.5rem;"></i>
+        </div>
+        <h3>Data Visualization</h3>
+        <p class="cert-provider">freeCodeCamp</p>
+        <a href="https://freecodecamp.org/certification/fcc5c6b5e38-1843-47b3-a3d0-d7b540718147/data-visualization"
+          target="_blank" class="cert-link">
+          <i class="fas fa-external-link-alt"></i> Ver Certificado
+        </a>
+      </article>
+
+      <article class="card cert-card hidden" data-cert-image="assets/cert-relational-database.png">
+        <div class="cert-icon">
+          <i class="fab fa-free-code-camp" style="color: #0a0a23; font-size: 2.5rem;"></i>
+        </div>
+        <h3>Relational Database v8</h3>
+        <p class="cert-provider">freeCodeCamp</p>
+        <a href="https://freecodecamp.org/certification/fcc5c6b5e38-1843-47b3-a3d0-d7b540718147/relational-database-v8"
+          target="_blank" class="cert-link">
+          <i class="fas fa-external-link-alt"></i> Ver Certificado
+        </a>
+      </article>
+
+      <!-- Udemy Courses -->
+      <article class="card cert-card hidden" data-cert-image="assets/cert-logica-programacion.png">
+        <div class="cert-icon">
+          <i class="fas fa-graduation-cap" style="color: #a435f0; font-size: 2.5rem;"></i>
+        </div>
+        <h3>Curso Completo de Lógica de Programación</h3>
+        <p class="cert-provider">Udemy</p>
+        <a href="https://www.udemy.com/certificate/UC-1ea70dae-9d46-465d-b746-9c3634ee149c/" target="_blank"
+          class="cert-link">
+          <i class="fas fa-external-link-alt"></i> Ver Certificado
+        </a>
+      </article>
+
+      <article class="card cert-card hidden" data-cert-image="assets/cert-logica-lenguajes.png">
+        <div class="cert-icon">
+          <i class="fas fa-graduation-cap" style="color: #a435f0; font-size: 2.5rem;"></i>
+        </div>
+        <h3>Lógica aplicada en múltiples lenguajes</h3>
+        <p class="cert-provider">Udemy</p>
+        <a href="https://www.udemy.com/certificate/UC-081dc858-8009-4f12-9a6e-4c7b2fcaf6d9/" target="_blank"
+          class="cert-link">
+          <i class="fas fa-external-link-alt"></i> Ver Certificado
+        </a>
+      </article>
+
+    </div>
+  </section>
+
+  <section id="experience">
+    <h2>Experiencia</h2>
+    <div class="timeline">
+      <div class="job">
+        <h3>Desarrollador Web Freelance</h3>
+        <span>2023 - Actualidad</span>
+        <p>WordPress, e-commerce, SEO y performance.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contacto</h2>
+    <div class="contact-links">
+      <a href="mailto:eric.ubri.montero01@gmail.com"><i class="fas fa-envelope"></i>Email</a>
+      <a href="https://github.com/Eric-Montero" target="_blank"><i class="fab fa-github"></i>GitHub</a>
+      <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i>LinkedIn</a>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Eric Montero · Portafolio profesional
+  </footer>
+
+  <!-- Certificate Preview Modal -->
+  <div id="cert-modal" class="cert-modal">
+    <div class="cert-modal-content">
+      <button class="cert-modal-close" onclick="closeCertModal()">&times;</button>
+      <img id="cert-modal-img" class="cert-modal-image" src="" alt="Certificate Preview">
+      <a id="cert-modal-link" href="" target="_blank" class="cert-modal-button">
+        <i class="fas fa-external-link-alt"></i> Ver Certificado Original
+      </a>
+    </div>
+  </div>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+
+</html>
