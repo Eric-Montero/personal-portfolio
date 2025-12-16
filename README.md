@@ -15,14 +15,21 @@
 
 ---
 
-### 🎓 Certificaciones
+### 🏆 Certificaciones y Logros Profesionales
 
-- [Responsive Web Design – freeCodeCamp](https://www.freecodecamp.org/certification/fcc5c6b5e38-1843-47b3-a3d0-d7b540718147/responsive-web-design)
-- [JavaScript Algorithms and Data Structures – freeCodeCamp](https://www.freecodecamp.org/certification/fcc5c6b5e38-1843-47b3-a3d0-d7b540718147/javascript-algorithms-and-data-structures-v8)
-- [Front End Development Libraries – freeCodeCamp](https://www.freecodecamp.org/certification/fcc5c6b5e38-1843-47b3-a3d0-d7b540718147/front-end-development-libraries)
-- [Data Visualization – freeCodeCamp](https://www.freecodecamp.org/certification/fcc5c6b5e38-1843-47b3-a3d0-d7b540718147/data-visualization)
-- [Curso Completo de Lógica de Programación (Udemy)](https://www.udemy.com/certificate/UC-1ea70dae-9d46-465d-b746-9c3634ee149c/)
-- [Lógica aplicada en múltiples lenguajes (Udemy)](https://www.udemy.com/certificate/UC-081dc858-8009-4f12-9a6e-4c7b2fcaf6d9/)
+<div align="center">
+
+| 📜 Certificación | 🏫 Plataforma | 📅 Estado | 🔗 Credencial |
+| :--- | :---: | :---: | :---: |
+| **Responsive Web Design** | <img src="https://img.shields.io/badge/freeCodeCamp-0A0A23?style=flat-square&logo=freecodecamp&logoColor=white" /> | ![Verified](https://img.shields.io/badge/Verificado-Success?style=flat-square&logo=github-sponsors&logoColor=white) | [**Ver Título**](https://www.freecodecamp.org/certification/fcc5c6b5e38-1843-47b3-a3d0-d7b540718147/responsive-web-design) |
+| **JS Algorithms & Data Structures** | <img src="https://img.shields.io/badge/freeCodeCamp-0A0A23?style=flat-square&logo=freecodecamp&logoColor=white" /> | ![Verified](https://img.shields.io/badge/Verificado-Success?style=flat-square&logo=github-sponsors&logoColor=white) | [**Ver Título**](https://www.freecodecamp.org/certification/fcc5c6b5e38-1843-47b3-a3d0-d7b540718147/javascript-algorithms-and-data-structures-v8) |
+| **Front End Development Libraries** | <img src="https://img.shields.io/badge/freeCodeCamp-0A0A23?style=flat-square&logo=freecodecamp&logoColor=white" /> | ![Verified](https://img.shields.io/badge/Verificado-Success?style=flat-square&logo=github-sponsors&logoColor=white) | [**Ver Título**](https://www.freecodecamp.org/certification/fcc5c6b5e38-1843-47b3-a3d0-d7b540718147/front-end-development-libraries) |
+| **Data Visualization** | <img src="https://img.shields.io/badge/freeCodeCamp-0A0A23?style=flat-square&logo=freecodecamp&logoColor=white" /> | ![Verified](https://img.shields.io/badge/Verificado-Success?style=flat-square&logo=github-sponsors&logoColor=white) | [**Ver Título**](https://www.freecodecamp.org/certification/fcc5c6b5e38-1843-47b3-a3d0-d7b540718147/data-visualization) |
+| **Relational Database** | <img src="https://img.shields.io/badge/freeCodeCamp-0A0A23?style=flat-square&logo=freecodecamp&logoColor=white" /> | ![Verified](https://img.shields.io/badge/Verificado-Success?style=flat-square&logo=github-sponsors&logoColor=white) | [**Ver Título**](https://www.freecodecamp.org/certification/fcc5c6b5e38-1843-47b3-a3d0-d7b540718147/relational-database-v8) |
+| **Lógica de Programación Completo** | <img src="https://img.shields.io/badge/Udemy-A435F0?style=flat-square&logo=udemy&logoColor=white" /> | ![New](https://img.shields.io/badge/Nuevo-blue?style=flat-square&logo=star&logoColor=white) | [**Ver Título**](https://www.udemy.com/certificate/UC-1ea70dae-9d46-465d-b746-9c3634ee149c/) |
+| **Lógica en Múltiples Lenguajes** | <img src="https://img.shields.io/badge/Udemy-A435F0?style=flat-square&logo=udemy&logoColor=white" /> | ![New](https://img.shields.io/badge/Nuevo-blue?style=flat-square&logo=star&logoColor=white) | [**Ver Título**](https://www.udemy.com/certificate/UC-081dc858-8009-4f12-9a6e-4c7b2fcaf6d9/) |
+
+</div>
 
 ---
 
