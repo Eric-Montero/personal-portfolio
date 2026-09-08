@@ -1,6 +1,6 @@
 const GITHUB_USERNAME = "Eric-Montero";
 const CURRENT_CV = "assets/CV_Eric_Montero_Actualizado_NurseMarket.pdf";
-const NURSEMARKET_WEB = "https://nursemarket-app-f44b6.web.app/";
+const NURSEMARKET_WEB = "https://nursemarket-app.vercel.app";
 
 const navToggle = document.getElementById("nav-toggle");
 const navMenu = document.getElementById("nav-menu");
