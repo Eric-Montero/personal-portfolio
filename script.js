@@ -45,13 +45,90 @@ themeToggle?.addEventListener("click", () => {
   applyTheme(document.body.classList.contains("light-mode") ? "dark" : "light");
 });
 
+// Professional positioning for recruiting/event visitors.
+function enhancePortfolioForRecruiting() {
+  const heroLead = document.querySelector(".hero-lead");
+  if (heroLead) {
+    heroLead.innerHTML = `
+      Soy <strong>Eric Montero</strong>, desarrollador Full-Stack Junior enfocado en construir productos reales.
+      Trabajo con frontend, backend, bases de datos y aplicaciones móviles, y actualmente busco una
+      <strong>pasantía o posición Junior</strong> donde pueda aportar, recibir code review y seguir creciendo dentro de un equipo.
+    `;
+  }
+
+  const aboutHeading = document.querySelector("#about .section-heading h2");
+  if (aboutHeading) {
+    aboutHeading.textContent = "Construyo proyectos completos y puedo explicar las decisiones detrás del código.";
+  }
+
+  const aboutCopy = document.querySelector("#about .section-heading p:last-child");
+  if (aboutCopy) {
+    aboutCopy.textContent = "Mi enfoque es demostrar aprendizaje aplicado: interfaces, APIs, datos, seguridad, despliegue y evolución de productos.";
+  }
+
+  const projectsIntro = document.querySelector("#projects .section-heading p:last-child");
+  if (projectsIntro) {
+    projectsIntro.textContent = "Estos proyectos muestran dos niveles de trabajo: un producto web desplegado y una aplicación móvil Full-Stack en preproducción.";
+  }
+
+  const existingFeatured = document.querySelector("#projects .featured-project");
+  if (!existingFeatured || document.getElementById("nursemarket-featured")) return;
+
+  const nursemarket = document.createElement("article");
+  nursemarket.id = "nursemarket-featured";
+  nursemarket.className = "featured-project reveal visible";
+  nursemarket.innerHTML = `
+    <div class="featured-visual">
+      <div class="browser-frame">
+        <div class="browser-bar"><span></span><span></span><span></span><small>Flutter · Firebase · Cloud Functions</small></div>
+        <div class="project-mockup">
+          <i class="fa-solid fa-heart-pulse"></i>
+          <strong>NurseMarket / Cuidado con Amor</strong>
+          <span>Proyecto insignia · MVP avanzado en preproducción</span>
+        </div>
+      </div>
+    </div>
+    <div class="featured-content">
+      <span class="project-label">Proyecto principal · En desarrollo</span>
+      <h3>NurseMarket</h3>
+      <p>
+        Marketplace móvil para conectar pacientes y familias con profesionales de enfermería.
+        Incluye autenticación, roles, perfiles, verificación de enfermeras, reservas, chat,
+        funcionalidades en tiempo real y operaciones privilegiadas movidas a backend.
+      </p>
+      <div class="tag-list project-tags">
+        <span>Flutter</span><span>Dart</span><span>Firebase</span><span>Cloud Functions</span><span>Admin SDK</span><span>Riverpod</span>
+      </div>
+      <div class="project-actions">
+        <a class="button primary" href="https://github.com/Eric-Montero/nursemarket-app" target="_blank" rel="noopener">
+          <i class="fa-brands fa-github"></i> Ver código
+        </a>
+      </div>
+    </div>
+  `;
+
+  existingFeatured.parentNode.insertBefore(nursemarket, existingFeatured);
+
+  const gameZoneLabel = existingFeatured.querySelector(".project-label");
+  const gameZoneDescription = existingFeatured.querySelector(".featured-content p");
+  const gameZoneStatus = existingFeatured.querySelector(".project-mockup span");
+
+  if (gameZoneLabel) gameZoneLabel.textContent = "Proyecto web desplegado";
+  if (gameZoneStatus) gameZoneStatus.textContent = "Gaming discovery & community · Demo en producción";
+  if (gameZoneDescription) {
+    gameZoneDescription.textContent = "Plataforma gamer Full-Stack con catálogo, búsqueda, favoritos, listas, reseñas, comunidad, marketplace y diferentes áreas de contenido. Demuestra arquitectura de una aplicación amplia, manejo de datos y despliegue real en Vercel.";
+  }
+}
+
+enhancePortfolioForRecruiting();
+
 // Typing effect
 const roles = [
-  "React · Next.js · JavaScript",
+  "React · Next.js · TypeScript",
+  "Flutter · Firebase · Riverpod",
+  "Cloud Functions · Admin SDK",
   "Django · Node.js · REST APIs",
-  "SQL · PostgreSQL · SQLite",
-  "Python · D3.js · Kotlin",
-  "WordPress · WooCommerce · SEO"
+  "SQL · PostgreSQL · Supabase"
 ];
 let roleIndex = 0;
 let charIndex = 0;
